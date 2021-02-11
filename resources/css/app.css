@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.ql-toolbar, #quill-container {
+    border: none!important;
+}
+
+.ql-toolbar {
+    padding-top: 0 !important;
+}
+
+.ql-editor {
+    min-height: 0 !important;
+}
